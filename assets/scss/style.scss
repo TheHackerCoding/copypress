@@ -1,0 +1,21 @@
+$heading-size: 10em;
+* {
+    --heading-size: 10em;
+}
+
+.header {
+    height: 50%;
+    background-color: #242424;
+    padding-top: var(--heading-size);
+    padding-bottom: var(--heading-size);
+    color: white;
+    text-align: center;
+}
+
+.header-bottom {
+    padding-top: $heading-size / 2;
+    padding-bottom: $heading-size / 2;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
