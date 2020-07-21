@@ -24,9 +24,30 @@ require($settings);
     <div class="header-bottom">
         <h2><?php echo constant("JSONDescription")?></h2>
     </div>
-    <div class="content">
-        <h3>Welcome!</h3>
+
+    <h3 class="text-center" style="padding-top: 1.2em; padding-bottom: 4em">Welcome!</h3>
+    <div class="container-fluid" style="margin: 0 auto;">
+        <div class="row">
+            <div class="col-sm-4 d-flex justify-content-center"><img src="https://picsum.photos/300"
+                    alt="Random placeholder"></div>
+            <div class="col-sm-8 text-center">
+                <h5>Lorem ipsum</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Enim
+                    blandit volutpat maecenas volutpat blandit aliquam etiam. Nisi vitae suscipit tellus mauris a diam
+                    maecenas sed enim. In aliquam sem fringilla ut morbi tincidunt augue. Varius duis at consectetur
+                    lorem donec. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Maecenas pharetra convallis
+                    posuere morbi. Viverra vitae congue eu consequat ac felis donec et. Elit at imperdiet dui accumsan
+                    sit amet nulla. Augue lacus viverra vitae congue eu. Magna etiam tempor orci eu lobortis elementum
+                    nibh tellus molestie. Quisque egestas diam in arcu cursus euismod quis. Etiam erat velit scelerisque
+                    in dictum non consectetur a erat. Eget velit aliquet sagittis id consectetur purus ut faucibus
+                    pulvinar.</p>
+            </div>
+        </div>
     </div>
+    <p class="spacer"> </p>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>

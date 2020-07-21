@@ -1,6 +1,7 @@
 $heading-size: 10em;
 * {
     --heading-size: 10em;
+    --content-size: 10em;
 }
 
 .header {
@@ -18,4 +19,9 @@ $heading-size: 10em;
     background-color: black;
     text-align: center;
     color: white;
+}
+
+.content {
+    padding-left: var(--content-size);
+    padding-right: var(--content-size);
 }
