@@ -19,6 +19,7 @@ require($settings);
     <div class="header">
         <div class="container">
             <h1 class="container"><?php echo constant("JSONWebsite")?></h1>
+            <a href="./assets/lib/login.php">Login</a>
         </div>
     </div>
     <div class="header-bottom">
