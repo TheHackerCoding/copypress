@@ -31,7 +31,7 @@ require($settings);
                         <input type="password" class="form-control" name="password" id="password" required>
                     </div>
                 </div>
-                <button class="btn btn-primary" type="submit">Submit form</button>
+                <button class="btn btn-primary" type="submit">Login</button>
             </form>
         </div>
     </div>
